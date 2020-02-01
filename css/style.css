@@ -1,0 +1,105 @@
+body{
+    background-color: pink;
+}
+
+/*==========Header============*/
+#header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    background-color: pink;
+}
+#header-img{
+    height: 95px;
+    width: 150px;
+    margin: 5px;
+}
+#brand-name{
+    font-size: large;
+}
+#nav-bar{
+    margin-right: 35px;
+}
+
+#list-link{
+    display: flex;
+    list-style-type: none;
+}
+.nav-link{
+    margin: 5px;
+    margin-left: 25px;
+}
+.links{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+/*==========Form email============*/
+#content{
+    margin-top: 100px;
+}
+#main-title{
+    font-weight: 800;
+    text-align: center;
+}
+#form{
+    text-align: center;
+}
+#email{
+    width: 250px;
+    height: 25px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+#submit{
+    margin-top: 15px;
+    background-color: yellow;
+    border: none;
+    border-radius: 1px;
+    height: 30px;
+    width: 150px;
+    font-weight: 800;
+    
+}
+/*============FEATURES=========*/
+.feature-blocks{
+    display: flex;
+}
+.image{
+    height: 90px;
+    border-radius: 50%;
+}
+#features{
+margin-top: 150px;
+}
+
+/*============ViDEO==========*/
+
+#video-content{
+    margin-top: 200px;
+}
+
+/*============PRICING============*/
+
+#pricing{
+    margin-top: 200px;
+    display: flex;
+}
+
+.blocks-pricing{
+    border: black solid;
+    border-color: #000;
+}
+.title-pricing{
+    background-color: #C5C0FF;
+}
+.content-pricing{
+    text-align: center;
+}
+.buttun-select{
+    background-color: #F1C40F;
+}
+
